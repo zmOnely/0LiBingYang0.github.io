@@ -13,9 +13,9 @@
 
 ### Git命令
 	1. ssh-keygen -t rsa -C "邮箱"   生成ssh 密钥，输入命令后，连按三个回车即可生成ssh 密钥  
-	![图一](https://upload-images.jianshu.io/upload_images/14466577-9a2ab5ce51278c01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+	![图一.png](https://upload-images.jianshu.io/upload_images/14466577-9a2ab5ce51278c01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	2. git clone + ssh路径  克隆ssh的密钥
-	![图二](https://upload-images.jianshu.io/upload_images/14466577-86ca0d86bf58d8c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+	![图二.png](https://upload-images.jianshu.io/upload_images/14466577-86ca0d86bf58d8c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	3. touch lpl.md 创建格式为目的的文件
 	4. git status 命令用于显示工作目录或暂存区状态
 	5. git add lpl.mp 讲lpl.md 添加到暂存区
