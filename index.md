@@ -2,7 +2,6 @@
 ## 点击下面的链接进入相应内容的博客
 - git
 	- GitHub blog build
-	- [GitHub](http://github.com)
-	- git命令
+	- [git命令] (https://0libingyang0.github.io/Day)
 - Linux
 - Hadoop 
