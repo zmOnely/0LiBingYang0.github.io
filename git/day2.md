@@ -12,7 +12,6 @@ echo "Hello World" >> aaa.md 把Hello World 写进aaa.md 有的话直接写进去，没有的话
 
 Li.md ll echo hhh github   1.1	
       ll echo aaa local    1.2
-
 git stash
 存在栈中 1.2
 local 1.1
@@ -25,7 +24,7 @@ git多人合作
 
 git init 初始化git仓库(.git文件夹的生成)
 
-git remote add origin git@github.com0LiBingYang0more.git
+
 刚开始初始化出来的git仓库是不知道要推送的远端git仓库是谁的
 所以需要我们通过该命令告诉他跟哪个远程仓库连接
 
