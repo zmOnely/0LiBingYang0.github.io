@@ -18,6 +18,6 @@
 	4. git status 命令用于显示工作目录或暂存区状态
 	5. git add lpl.mp 讲lpl.md 添加到暂存区
 	6. git commit -m "forst commit" 放到名为"first commit"的本地库中
-	7. git config --global user.email "2578987146@qq.com"  登录邮箱
-	   git config --global user.name "0LiBingYang0"		   登录用户名
+	7.1 git config --global user.email "2578987146@qq.com"  登录邮箱
+	7.2 git config --global user.name "0LiBingYang0"		 登录用户名
 	8. git push -u origin master  提交文件到服务器
