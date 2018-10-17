@@ -1,21 +1,21 @@
-git命令
+git鍛戒护
 
-git clone 仓库地址
+git clone 浠撳簱鍦板潃
 
-git add 文件路径,=让创建出来的文件告诉git仓库要添加
+git add 鏂囦欢璺緞,=璁╁垱寤哄嚭鏉ョ殑鏂囦欢鍛婅瘔git浠撳簱瑕佹坊鍔?
 
-git commit -m "要提交的内容是什么  -- 提交日志" 将我们做的操作提交到本地git仓库
+git commit -m "瑕佹彁浜ょ殑鍐呭鏄粈涔? -- 鎻愪氦鏃ュ織" 灏嗘垜浠仛鐨勬搷浣滄彁浜ゅ埌鏈湴git浠撳簱
 
-git push -u origin master （第一遍这么写，目的是设置以后默认都是往master分支上提交代码）
+git push -u origin master 锛堢涓€閬嶈繖涔堝啓锛岀洰鐨勬槸璁剧疆浠ュ悗榛樿閮芥槸寰€master鍒嗘敮涓婃彁浜や唬鐮侊級
 
-git push 用完以后这么写就可以
+git push 鐢ㄥ畬浠ュ悗杩欎箞鍐欏氨鍙互
 
 
-echo "Hello World" >> aaa.md 把Hello World 写进aaa.md 有的话直接写进去,没有的话先创建后写
+echo "Hello World" >> aaa.md 鎶奌ello World 鍐欒繘aaa.md 鏈夌殑璇濈洿鎺ュ啓杩涘幓,娌℃湁鐨勮瘽鍏堝垱寤哄悗鍐?
 
-堆 先进先出
+鍫?鍏堣繘鍏堝嚭
 
-栈 先进后出
+鏍?鍏堣繘鍚庡嚭
 
 Li.md ll echo hhh github   1.1	
 
@@ -23,27 +23,27 @@ ll echo aaa local    1.2
 
 git stash
 
-存在栈中 1.2
+瀛樺湪鏍堜腑 1.2
 
 local 1.1
 
 git pull
 
-git stash pop 出栈
+git stash pop 鍑烘爤
 
-local hhh aaa 代码冲突
+local hhh aaa 浠ｇ爜鍐茬獊
 
-git多人合作
+git澶氫汉鍚堜綔
 
-git init 初始化git仓库(.git文件夹的生成)
+git init 鍒濆鍖杇it浠撳簱(.git鏂囦欢澶圭殑鐢熸垚)
 
 
-刚开始初始化出来的git仓库是不知道要推送的远端git仓库是谁的
+鍒氬紑濮嬪垵濮嬪寲鍑烘潵鐨刧it浠撳簱鏄笉鐭ラ亾瑕佹帹閫佺殑杩滅git浠撳簱鏄皝鐨?
 
-所以需要我们通过该命令告诉他跟哪个远程仓库连接
+鎵€浠ラ渶瑕佹垜浠€氳繃璇ュ懡浠ゅ憡璇変粬璺熷摢涓繙绋嬩粨搴撹繛鎺?
 
-1.github 创建一个用于多人合作的git仓库
+1.github 鍒涘缓涓€涓敤浜庡浜哄悎浣滅殑git浠撳簱
 
-2.推送1.0版本的代码,内容到我们的仓库当中
+2.鎺ㄩ€?.0鐗堟湰鐨勪唬鐮?鍐呭鍒版垜浠殑浠撳簱褰撲腑
 
-3.默认情况下那个账号创建的仓库只有本人能提交东西,如果想要多人开发需要邀请别人成为协作者
+3.榛樿鎯呭喌涓嬮偅涓处鍙峰垱寤虹殑浠撳簱鍙湁鏈汉鑳芥彁浜や笢瑗?濡傛灉鎯宠澶氫汉寮€鍙戦渶瑕侀個璇峰埆浜烘垚涓哄崗浣滆€?
