@@ -6,12 +6,12 @@ git add 文件路径，让创建出来的文件告诉git仓库要添加
 
 git commit -m "要提交的内容是什么  -- 提交日志" 将我们做的操作提交到本地git仓库
 
-git push -u origin master （第一遍这么写，目的是设置以后默认都是往master分支上提交代码）
+git push -u origin master （第一遍这么写,目的是设置以后默认都是往master分支上提交代码）
 
 git push 用完以后这么写就可以
 
 
-echo "Hello World" >> aaa.md 把Hello World 写进aaa.md 有的话直接写进去，没有的话先创建后写
+echo "Hello World" >> aaa.md 把Hello World 写进aaa.md 有的话直接写进去,没有的话先创建后写
 
 
 堆 先进先出
@@ -19,9 +19,9 @@ echo "Hello World" >> aaa.md 把Hello World 写进aaa.md 有的话直接写进去，没有的话
 栈 先进后出
 
 
-Li.md ll echo hhh github   1.1	
+Li.md ll echo hhh github 1.1	
 
-ll echo aaa local    1.2
+ll echo aaa local  1.2
 
 git stash
 
