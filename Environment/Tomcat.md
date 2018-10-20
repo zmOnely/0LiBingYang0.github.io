@@ -3,9 +3,7 @@
 1.下载apache-tomcat-8.5.34.tar.gz
 	(1).在Tomcat官网找到下载地址链接
 	(2).在/usr中直接下载Tomcat: (图1)
-	
 		链接为:http://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-8/v8.5.34/bin/apache-tomcat-8.5.34.tar.gz
-		
 		wget + 链接 下载
 		![图1.png](https://upload-images.jianshu.io/upload_images/14498135-2a24997b80a9d8ee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 		
