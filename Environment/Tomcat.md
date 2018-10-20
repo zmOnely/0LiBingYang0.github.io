@@ -3,6 +3,7 @@
 1.下载apache-tomcat-8.5.34.tar.gz
 	(1).在Tomcat官网找到下载地址链接
 	(2).在/usr中直接下载Tomcat: (图1)
+	
 		链接为:http://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-8/v8.5.34/bin/apache-tomcat-8.5.34.tar.gz
 		
 		wget + 链接 下载
@@ -18,7 +19,6 @@
 	
 	执行startup.sh文件(图4)显示Tomcat started证明Tomcat安装成功
 	\. startup.sh
-	 
 	![图4.png](https://upload-images.jianshu.io/upload_images/14498135-9d4d2d4bd1303812.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	
 4.成功之后再浏览器地址栏访问ip+端口号(图5)出现该界面,证明Tomcat启动成功
