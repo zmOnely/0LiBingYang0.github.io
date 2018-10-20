@@ -13,7 +13,7 @@
 	cd apache-tomcat-8.5.34/bin
 	![图3.png](https://upload-images.jianshu.io/upload_images/14498135-036d1eaf0d3c6fd4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 	执行startup.sh文件(图4)显示Tomcat started证明Tomcat安装成功
-	\. startup.sh
+	 \. startup.sh
 	![图4.png](https://upload-images.jianshu.io/upload_images/14498135-9d4d2d4bd1303812.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 4.成功之后再浏览器地址栏访问ip+端口号(图5)出现该界面,证明Tomcat启动成功
 	![image.png](https://upload-images.jianshu.io/upload_images/14498135-86890cee4466c87a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
